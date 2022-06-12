@@ -42,7 +42,7 @@ Then we can run the data consumer. This process reads the information from Kafka
 Please note that the data can also be transferred from Kafka to cassandra by using the kafka-connect. In kafka-connect, kafka-conssandra connector is installed to poll the data from Kafka and save it into cassandra. We need to add Cassandra Source connector to the Kafka Connect. We did not implement this part yet. 
 
 Notes:
-1. This document is based on this toturial: ttps://medium.com/sfu-cspmp/building-data-pipeline-kafka-docker-4d2a6cfc92ca
+1. This document is based on this toturial: https://medium.com/sfu-cspmp/building-data-pipeline-kafka-docker-4d2a6cfc92ca
 
 2. In consumer, as the data is being saved to a csv file the required permissions should be set for the file that is mounted to the container.
 
