@@ -3,7 +3,7 @@
 
 This demo demonstrate the functionality of a  data pipeline that is building upon three components. 
 
-1. Weathercondition as Data Producer
+1. Data Producer: a program that reads the information 
 2. Kafka as the scalable pub/sub system 
 3. Data consumer
 
